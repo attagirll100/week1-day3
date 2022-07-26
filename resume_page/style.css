@@ -1,7 +1,50 @@
+h1{
+    text-align: center;
+    background-color: black;
+    font-size: 30px;
+
+
+}
+
 body {
     background-color: aqua;
 }
 
+/*this is how you add color to unordered list*/
 .list{
     color: darkred;
+    text-align: center;
+  
 }
+
+/*this is how you center an img*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+/*this is how you center a unorder list*/
+ul {
+    display: table; 
+    margin: 0 auto;
+    text-align: left;
+}
+
+/*this is how you center links in CSS*/
+a.center-text {
+    display:block;
+}
+
+
+.center-text {
+    text-align: center; 
+}
+
